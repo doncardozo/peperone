@@ -1,7 +1,0 @@
-.vscode
-myenv
-*.pyc
-staticfiles
-.env
-db.sqlite3
-bkp/
