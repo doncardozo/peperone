@@ -25,7 +25,7 @@ SECRET_KEY = '_@u4g8&-@7#m!18=)zcdjw6!d2nlep#q-r-_(kzmqkt01)8-uh'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'peperone'
 ]
 
 MIDDLEWARE = [
